@@ -1,0 +1,12 @@
+// Variables //
+@1000: ~"(max-width: 1000px)";
+
+@500: ~"(max-width: 500px)";
+
+// Mix-ins //
+.hover-color(@bg-color, @font-color: black) {
+  &:hover {
+    background-color: @bg-color;
+    color: @font-color;
+  }
+}

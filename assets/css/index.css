@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+body header .nav-with-logo {
+  display: flex;
+}
+body header .nav-with-logo img {
+  width: 10%;
+  margin-left: 1%;
+}
+@media (max-width: 500px) {
+  body header .nav-with-logo img {
+    display: none;
+  }
+}
+body header .nav-with-logo nav {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 60%;
+}
+@media (max-width: 500px) {
+  body header .nav-with-logo nav {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+body header .nav-with-logo nav a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: black;
+}
+@media (max-width: 500px) {
+  body header .nav-with-logo nav a {
+    border-bottom: 1px solid black;
+    width: 95%;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+}
+body header .nav-with-logo nav a:hover {
+  background-color: none;
+  color: #6e6e7e;
+}
+body header .nav-with-logo nav .login-btn {
+  color: white;
+  padding-left: 22px;
+  padding-top: 15px;
+  padding-right: 22px;
+  padding-bottom: 15px;
+  background-color: darkred;
+}
+@media (max-width: 500px) {
+  body header .nav-with-logo nav .login-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+body header .nav-with-logo nav .login-btn:hover {
+  background-color: red;
+  color: white;
+}
+@media (max-width: 500px) {
+  body img {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+  }
+}
+footer p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 3%;
+}
