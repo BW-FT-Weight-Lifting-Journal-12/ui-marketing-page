@@ -182,12 +182,24 @@ section .statement-pieces .about-us-paragraphs h2 {
   margin: 3% 0;
   text-align: center;
 }
+@media (max-width: 500px) {
+  section .team-members {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+}
 section .team-members .project-lead h3 {
   font-size: 3rem;
   margin-bottom: 2%;
 }
 section .team-members .project-lead img {
   width: 15%;
+}
+@media (max-width: 500px) {
+  section .team-members .project-lead img {
+    margin: 0 auto;
+    width: 20%;
+  }
 }
 section .team-members .project-lead p {
   font-size: 2.5rem;
@@ -209,6 +221,13 @@ section .helpers {
   display: flex;
   justify-content: space-around;
 }
+@media (max-width: 500px) {
+  section .helpers {
+    display: flex;
+    flex-flow: column wrap;
+    border: 1px solid black;
+  }
+}
 section .helpers h3 {
   font-size: 3rem;
   margin-bottom: 2%;
@@ -225,6 +244,15 @@ section .helpers .back-end-developer {
   margin-top: 2%;
   margin-bottom: 2%;
   width: 10%;
+}
+@media (max-width: 500px) {
+  section .helpers .web-ui-developer,
+  section .helpers .web-react-i,
+  section .helpers .web-react-ii,
+  section .helpers .back-end-developer {
+    border: 1px solid black;
+    width: 100%;
+  }
 }
 footer p {
   font-size: 1.5rem;
