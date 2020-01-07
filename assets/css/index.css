@@ -77,6 +77,73 @@ body header .nav-with-logo nav .login-btn:hover {
     width: 100%;
   }
 }
+section .statement-pieces {
+  margin-top: 1%;
+  flex-flow: row nowrap;
+  display: flex;
+  justify-content: space-around;
+}
+section .statement-pieces .about-us-paragraphs {
+  width: 40%;
+}
+section .statement-pieces .about-us-paragraphs img {
+  width: 100%;
+}
+section .statement-pieces .about-us-paragraphs p {
+  font-size: 2rem;
+  line-height: 120%;
+  border-bottom: 1px solid black;
+  padding-bottom: 3%;
+}
+section .statement-pieces .about-us-paragraphs h2 {
+  font-size: 3rem;
+  margin: 3% 0;
+  text-align: center;
+}
+section .team-members .project-lead h3 {
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+section .team-members .project-lead img {
+  width: 15%;
+}
+section .team-members .project-lead p {
+  font-size: 2.5rem;
+  margin-top: 1%;
+}
+section .team-members img {
+  border-radius: 50%;
+}
+section .team-members h2 {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+section .team-members .project-lead {
+  text-align: center;
+}
+section .helpers {
+  display: flex;
+  justify-content: space-around;
+}
+section .helpers h3 {
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+section .helpers p {
+  font-size: 2.5rem;
+  margin-top: 1%;
+}
+section .helpers .web-ui-developer,
+section .helpers .web-react-i,
+section .helpers .web-react-ii,
+section .helpers .back-end-developer {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 10%;
+}
 footer p {
   font-size: 1.5rem;
   text-align: center;
