@@ -32,6 +32,9 @@ section {
       flex-flow: column nowrap;
     }
     .project-lead {
+      @media @500 {
+        margin-bottom: 5%;
+      }
       h3 {
         font-size: 3rem;
         margin-bottom: 2%;
@@ -40,7 +43,7 @@ section {
         width: 15%;
         @media @500 {
           margin: 0 auto;
-          width: 20%;
+          width: 50%;
         }
       }
       p {
@@ -67,19 +70,19 @@ section {
     @media @500 {
       display: flex;
       flex-flow: column wrap;
-      border: 1px solid black;
+      margin-left: 25%;
     }
+
     h3 {
       font-size: 3rem;
       margin-bottom: 2%;
-      @media @500 {
-      }
     }
 
     p {
       font-size: 2.5rem;
       margin-top: 1%;
     }
+
     .web-ui-developer,
     .web-react-i,
     .web-react-ii,
@@ -89,8 +92,8 @@ section {
       margin-bottom: 2%;
       width: 10%;
       @media @500 {
-        border: 1px solid black;
-        width: 100%;
+        width: 70%;
+        margin-bottom: 2%;
       }
     }
   }
