@@ -49,6 +49,7 @@ section {
       p {
         font-size: 2.5rem;
         margin-top: 1%;
+        .hover-color(none, darkred);
       }
     }
     img {
@@ -64,6 +65,11 @@ section {
       text-align: center;
     }
   }
+
+  a {
+    color: black;
+  }
+
   .helpers {
     display: flex;
     justify-content: space-around;
@@ -81,6 +87,7 @@ section {
     p {
       font-size: 2.5rem;
       margin-top: 1%;
+      .hover-color(none, darkred);
     }
 
     .web-ui-developer,
@@ -91,6 +98,7 @@ section {
       margin-top: 2%;
       margin-bottom: 2%;
       width: 10%;
+
       @media @500 {
         width: 70%;
         margin-bottom: 2%;

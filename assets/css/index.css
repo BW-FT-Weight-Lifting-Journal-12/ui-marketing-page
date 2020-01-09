@@ -73,15 +73,16 @@ body header .nav-with-logo nav a:hover {
 body header .nav-with-logo nav .login-btn {
   color: white;
   padding-left: 22px;
-  padding-top: 15px;
+  padding-top: 12px;
   padding-right: 22px;
   padding-bottom: 15px;
   background-color: darkred;
 }
 @media (max-width: 500px) {
   body header .nav-with-logo nav .login-btn {
-    width: 100%;
+    width: 95%;
     text-align: center;
+    border-radius: 10px;
   }
 }
 body header .nav-with-logo nav .login-btn:hover {
@@ -124,6 +125,7 @@ section .hero .mobile-button {
     font-size: 1.5rem;
     margin-top: 2%;
     padding: 2% 4%;
+    border-radius: 20px;
   }
   section .hero .mobile-button:hover {
     background-color: darkred;
@@ -154,6 +156,8 @@ section .hero .hero-text h1 {
 section .hero .hero-text button {
   margin-top: 2%;
   font-size: 2.5rem;
+  padding: 1%;
+  border-radius: 10px;
 }
 section .hero .hero-text button:hover {
   background-color: darkred;
@@ -215,6 +219,10 @@ section .team-members .project-lead p {
   font-size: 2.5rem;
   margin-top: 1%;
 }
+section .team-members .project-lead p:hover {
+  background-color: none;
+  color: darkred;
+}
 section .team-members img {
   border-radius: 50%;
 }
@@ -226,6 +234,9 @@ section .team-members h2 {
 }
 section .team-members .project-lead {
   text-align: center;
+}
+section a {
+  color: black;
 }
 section .helpers {
   display: flex;
@@ -245,6 +256,10 @@ section .helpers h3 {
 section .helpers p {
   font-size: 2.5rem;
   margin-top: 1%;
+}
+section .helpers p:hover {
+  background-color: none;
+  color: darkred;
 }
 section .helpers .web-ui-developer,
 section .helpers .web-react-i,
@@ -267,11 +282,11 @@ section .helpers .back-end-developer {
 footer p {
   font-size: 1.5rem;
   text-align: center;
-  margin-top: 3%;
+  margin-top: 1%;
   margin-bottom: 2%;
 }
 @media (max-width: 500px) {
   footer p {
-    margin-top: 20%;
+    margin-top: 40%;
   }
 }
