@@ -2,19 +2,34 @@ body {
   header {
     .nav-with-logo {
       display: flex;
-      img {
+      @media @500 {
+        display: flex;
+        flex-flow: column wrap;
+      }
+      .normal-logo {
         width: 10%;
         margin-left: 1%;
         @media @500 {
           display: none;
         }
       }
+      p {
+        visibility: hidden;
+        @media @500 {
+          font-size: 3rem;
+          visibility: visible;
+          text-align: center;
+          border: 1px solid black;
+          margin: 2% 40%;
+        }
+      }
+
       nav {
-        width: 30%;
+        width: 40%;
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin-left: 60%;
+        margin-left: 50%;
         @media @500 {
           display: flex;
           flex-flow: column wrap;

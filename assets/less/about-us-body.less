@@ -27,13 +27,24 @@ section {
 
 section {
   .team-members {
+    @media @500 {
+      display: flex;
+      flex-flow: column nowrap;
+    }
     .project-lead {
+      @media @500 {
+        margin-bottom: 5%;
+      }
       h3 {
         font-size: 3rem;
         margin-bottom: 2%;
       }
       img {
         width: 15%;
+        @media @500 {
+          margin: 0 auto;
+          width: 50%;
+        }
       }
       p {
         font-size: 2.5rem;
@@ -56,6 +67,12 @@ section {
   .helpers {
     display: flex;
     justify-content: space-around;
+    @media @500 {
+      display: flex;
+      flex-flow: column wrap;
+      margin-left: 25%;
+    }
+
     h3 {
       font-size: 3rem;
       margin-bottom: 2%;
@@ -65,6 +82,7 @@ section {
       font-size: 2.5rem;
       margin-top: 1%;
     }
+
     .web-ui-developer,
     .web-react-i,
     .web-react-ii,
@@ -73,6 +91,10 @@ section {
       margin-top: 2%;
       margin-bottom: 2%;
       width: 10%;
+      @media @500 {
+        width: 70%;
+        margin-bottom: 2%;
+      }
     }
   }
 }
