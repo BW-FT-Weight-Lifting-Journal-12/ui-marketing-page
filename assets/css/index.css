@@ -174,8 +174,22 @@ section .statement-pieces {
   display: flex;
   justify-content: space-around;
 }
+@media (max-width: 500px) {
+  section .statement-pieces {
+    display: flex;
+    flex-flow: column;
+  }
+}
 section .statement-pieces .about-us-paragraphs {
   width: 40%;
+}
+@media (max-width: 500px) {
+  section .statement-pieces .about-us-paragraphs {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+  }
 }
 section .statement-pieces .about-us-paragraphs img {
   width: 100%;
