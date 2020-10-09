@@ -8,6 +8,6 @@ Other workout apps take a simple thing and over complicate it. We believe that a
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5a2b5bc6-0f8f-42f2-b1b2-59c5dd6a84e3/deploy-status)](https://app.netlify.com/sites/weight-lifting-journal-12/deploys)
 
 # Screenshots
-
+![](https://github.com/BW-FT-Weight-Lifting-Journal-12/ui-marketing-page/blob/master/assets/img/desktop.png)
 # Tech/framework used
 HTML | CSS | LESS 
